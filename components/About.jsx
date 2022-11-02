@@ -14,7 +14,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             I specialise in developing moachine learning models that communicate
-            and predict currect market data precisely. I'm enthusiastic about
+            and predict currect market data precisely. I&apos;m enthusiastic about
             learning new technology and recognise that there are other ways to
             do a task. Though I am most comfortable designing such models that
             help you to grow your business, I am a quick learner who can quickly
