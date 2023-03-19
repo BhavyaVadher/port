@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Stategame from '../public/assets/projects/stategame.jpeg';
-import Password from '../public/assets/projects/password.jpeg';
+import Stategame from '../public/assets/projects/stategame.jpg';
+import Password from '../public/assets/projects/password.jpg';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -15,16 +15,16 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='State Game'
+            title='Employee Attrition Prediction'
             backgroundImg={Stategame}
-            projectUrl='https://github.com/BhavyaVadher/indian-state-game'  
-            tech='Python'
+            projectUrl='https://github.com/BhavyaVadher/Empolyee_Attrition-ML-PROJECT_1-'  
+            tech='Machine Learning'
           />
           <ProjectItem
-            title='Password manager'
+            title='Predicting Chronic Kidney Disease'
             backgroundImg={Password}
-            tech='Phthon'
-            projectUrl='https://github.com/BhavyaVadher/password-manager-tkinter'
+            tech='Machine Learning'
+            projectUrl='https://github.com/BhavyaVadher/Chronic_Kidney-ML-Project-2'
           />
         </div>
       </div>

@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/bhavya-vadher-3b736a193/'
+                    href='https://www.linkedin.com/in/bhavyavadher/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -55,10 +55,16 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <a
+                    href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBncCFqjXcWXwbLvCvDKVxxkzpMCmwMFvDFNCWTmVdQcrpLcbfgSPJMPjJDXSCDljwcKdvc/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div> 
+                  </a>
+                  
                     <a href='https://www.instagram.com/bhavyavadher/' target='_blank'rel='noreferrer'  >
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsInstagram />

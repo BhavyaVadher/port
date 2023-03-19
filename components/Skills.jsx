@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
-import Html from '../public/assets/skills/html.png';
-import Css from '../public/assets/skills/css.png';
-import Javascript from '../public/assets/skills/javascript.png';
+import Html from '../public/assets/skills/ai.png';
+import Css from '../public/assets/skills/ml.png';
+import Javascript from '../public/assets/skills/dl.png';
 import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
-import Github from '../public/assets/skills/github1.png';
-import Firebase from '../public/assets/skills/firebase.png';
+import Github from '../public/assets/skills/np.png';
+import Firebase from '../public/assets/skills/tf.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import node from '../public/assets/skills/node.png'
 import python from '../public/assets/skills/python.png'
@@ -29,7 +29,7 @@ const Skills = () => {
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3>Artificial Intelligence</h3>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Skills = () => {
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>CSS</h3>
+                <h3>Machine Learning</h3>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Skills = () => {
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>JavaScript</h3>
+                <h3>Deep Learning</h3>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Skills = () => {
                 <Image src={Firebase} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Firebase</h3>
+                <h3>TensorFlow</h3>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Skills = () => {
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
+                <h3>Numpy</h3>
               </div>
             </div>
           </div>

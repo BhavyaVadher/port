@@ -15,13 +15,13 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#5651e5]'> Bhavya</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Software Developer</h1>
+          <h1 className='py-2 text-gray-700'>A Machine Learning Developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I&#39;m focused on building projects and applications related to Machine learning.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/bhavya-vadher-3b736a193/'
+              href='https://www.linkedin.com/in/bhavyavadher/'
               target='_blank'
               rel='noreferrer'
             >

@@ -168,7 +168,7 @@ const Navbar = () => {
             <div className='pt-40'>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/sohan-gajjar-96354b1a7/'
+                  href='https://www.linkedin.com/in/bhavyavadher/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -177,7 +177,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/BhavyaVadher/'
                   target='_blank'
                   rel='noreferrer'
                 >

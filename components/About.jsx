@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I specialise in developing moachine learning models that communicate
+            I specialise in developing machine learning models that communicate
             and predict currect market data precisely. I&apos;m enthusiastic about
             learning new technology and recognise that there are other ways to
             do a task. Though I am most comfortable designing such models that
