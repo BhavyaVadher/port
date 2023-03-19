@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Bhavya | Software Developer</title>
+        <title>Bhavya | ML Developer</title>
         <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
         <link rel="icon" href="/fav.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

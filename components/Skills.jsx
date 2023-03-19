@@ -3,15 +3,9 @@ import React from 'react';
 import Html from '../public/assets/skills/ai.png';
 import Css from '../public/assets/skills/ml.png';
 import Javascript from '../public/assets/skills/dl.png';
-import ReactImg from '../public/assets/skills/react.png';
-import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/np.png';
 import Firebase from '../public/assets/skills/tf.png';
-import NextJS from '../public/assets/skills/nextjs.png'
-import node from '../public/assets/skills/node.png'
-import python from '../public/assets/skills/python.png'
-
-import mongoDB from '../public/assets/skills/mongoDB.png'
+import python from '../public/assets/skills/python.png';
 
 
 const Skills = () => {
