@@ -7,7 +7,7 @@ export const profile = {
   github: 'https://github.com/BhavyaVadher',
   githubUser: 'BhavyaVadher',
   linkedin: 'https://www.linkedin.com/in/bhavyavadher/',
-  email: 'bhavyavadher01@gmail.com',
+  email: 'bhavyavadher111@gmail.com',
   site: 'https://bhavyavadher.github.io/',
   avatar: '/avatar-400.jpg',
   photo: '/avatar.jpg',
