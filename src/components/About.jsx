@@ -29,7 +29,7 @@ export default function About() {
               <img src={profile.avatar} alt="Bhavya Vadher" width="64" height="64" className="h-16 w-16 rounded-2xl object-cover ring-1 ring-[var(--line)]" />
               <div>
                 <p className="text-lg font-semibold">{profile.name}</p>
-                <p className="text-sm text-muted">Senior Developer · Data & Analytics</p>
+                <p className="text-sm text-muted">Senior Specialty Developer · CIBC</p>
               </div>
             </div>
             <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-muted">
@@ -37,7 +37,7 @@ export default function About() {
                 I started in electronics engineering, fell for data at <span className="text-[var(--fg)]">BISAG-N</span> building pipelines for government-scale datasets, and came to Canada to go deeper on AI & ML at Lambton College.
               </p>
               <p>
-                Since then I’ve worked inside two of Canada’s biggest banks. At <span className="text-[var(--fg)]">BMO</span> I designed dimensional models, Azure Data Factory pipelines and the Power BI dashboards executives used to track KPIs. At <span className="text-[var(--fg)]">CIBC</span> I now lead the migration of enterprise reporting from R to production-grade Python on Databricks.
+                At <span className="text-[var(--fg)]">BMO</span> I designed dimensional models, Azure Data Factory pipelines and 10+ Power BI dashboards for KPI tracking. Now at <span className="text-[var(--fg)]">CIBC</span> I modernize legacy security automation for Identity & Access Review operations — moving R and VBScript to Python, Power Automate and Office Scripts with byte-identical output, proven by automated tests.
               </p>
               <p>What I care about: code the next person can maintain, numbers people can trust, and automation that gives teams their week back.</p>
             </div>
@@ -56,7 +56,7 @@ export default function About() {
             <Repeat size={18} className="mb-4 text-violet-400" />
             <p className="font-semibold">Right now</p>
             <p className="mt-1 font-mono text-sm text-muted">
-              <span className="text-pink-400">R</span> → <span className="text-cyan-400">Python</span> · legacy → tested, modular, scheduled
+              <span className="text-pink-400">R · VBScript</span> → <span className="text-cyan-400">Python · Power Automate · TS</span> · zero logic drift
             </p>
           </div>
         </Reveal>

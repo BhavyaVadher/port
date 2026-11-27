@@ -6,7 +6,7 @@ import { Chip, Reveal, Section, spotlight } from './ui'
 
 const pipeline = [
   { icon: Database, title: 'Ingest', text: 'APIs, SQL databases, cloud & on-prem sources via ADF and SSIS' },
-  { icon: Workflow, title: 'Transform', text: 'Python, R & Databricks SQL — tested, modular, scheduled' },
+  { icon: Workflow, title: 'Transform', text: 'Python, R, TypeScript & Power Automate — tested for output parity' },
   { icon: Boxes, title: 'Model', text: 'Star & snowflake schemas built for fast, honest reporting' },
   { icon: ShieldCheck, title: 'Validate', text: 'Data-quality checks, lineage and governance baked in' },
   { icon: BarChart3, title: 'Serve', text: 'Power BI & Tableau dashboards people actually open' },

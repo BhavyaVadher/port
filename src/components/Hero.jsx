@@ -133,14 +133,14 @@ export default function Hero() {
         <motion.a {...fade(0)} href="#experience" className="mb-8 inline-flex items-center gap-2.5 rounded-full border border-line bg-card px-3.5 py-1.5 text-xs backdrop-blur-md">
           <span className="pulse-dot h-2 w-2 rounded-full bg-emerald-400" />
           <span className="text-muted">Currently</span>
-          <span className="font-semibold">Senior Developer @ CIBC</span>
+          <span className="font-semibold">Senior Specialty Developer @ CIBC</span>
           <ArrowUpRight size={13} className="text-muted" />
         </motion.a>
 
         <motion.h1 {...fade(0.1)} className="text-[clamp(2.6rem,7.5vw,6rem)] font-extrabold leading-[1.02] tracking-[-0.04em]">
           Hi, I’m {profile.first}.
           <br />
-          <RotatingRole />
+          <span className="text-[0.6em] sm:text-[0.8em] lg:text-[0.85em] xl:text-[0.72em]"><RotatingRole /></span>
         </motion.h1>
 
         <motion.p {...fade(0.2)} className="mt-7 max-w-2xl text-lg leading-relaxed text-muted sm:text-xl">

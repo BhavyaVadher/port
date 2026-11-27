@@ -20,7 +20,7 @@ function respond(raw) {
   const cmd = raw.trim().toLowerCase()
   if (!cmd) return null
   if (cmd === 'help' || cmd === '?') return HELP.map(([c, d]) => <div key={c}><span className="text-cyan-400">{c.padEnd(24, ' ')}</span><span className="text-muted">{d}</span></div>)
-  if (cmd === 'whoami') return `${profile.name} — Senior Developer (data & analytics) in ${profile.location}. Currently at CIBC, previously BMO.`
+  if (cmd === 'whoami') return `${profile.name} — Senior Specialty Developer at CIBC, modernizing legacy security automation. ${profile.location}. Previously a Data Analyst at BMO.`
   if (cmd === 'now') return experience[0].summary
   if (cmd === 'experience' || cmd === 'exp') return experience.map((e) => <div key={e.company}><span className="text-violet-300">{e.period.padEnd(22, ' ')}</span><span className="font-semibold">{e.company}</span><span className="text-muted"> · {e.role}</span></div>)
   if (cmd === 'skills') return skillGroups.map((g) => <div key={g.name}><span className="text-cyan-400">{(g.name + ':').padEnd(18, ' ')}</span>{g.items.join(', ')}</div>)
@@ -36,7 +36,7 @@ function respond(raw) {
   if (cmd === 'sudo hire bhavya' || cmd === 'hire') return <span className="text-emerald-300">✔ Permission granted. Redirecting you to the contact form… <a href="#contact" className="underline">go</a></span>
   if (cmd === 'sudo') return 'Nice try 😄'
   if (cmd === 'ls') return 'about.md  experience.json  skills.yml  projects/  contact.sh'
-  if (cmd === 'python' || cmd === 'r') return `${cmd === 'r' ? 'R' : 'Python'}? Both. Currently translating one into the other.`
+  if (cmd === 'python' || cmd === 'r') return `${cmd === 'r' ? 'R' : 'Python'}? Both — I’ve been translating R into Python, TypeScript and Power Automate.`
   return `command not found: ${cmd}. Type "help".`
 }
 

@@ -1,7 +1,8 @@
 export const profile = {
   name: 'Bhavya Vadher',
   first: 'Bhavya',
-  roles: ['Senior Developer', 'Data Engineer', 'Analytics Engineer', 'AI/ML Builder'],
+  title: 'Senior Specialty Developer',
+  roles: ['Senior Specialty Developer', 'Legacy Modernizer', 'Automation Engineer', 'Data Engineer'],
   location: 'Toronto, ON, Canada',
   now: 'CIBC',
   github: 'https://github.com/BhavyaVadher',
@@ -12,83 +13,86 @@ export const profile = {
   avatar: '/avatar-400.jpg',
   photo: '/avatar.jpg',
   tagline:
-    'I turn legacy code and messy data into clean pipelines, reliable reports and dashboards executives actually use — for two of Canada’s Big Five banks.',
+    'I take legacy code a business can’t afford to break and rebuild it as modern, tested automation — with zero change to what it does. Two of Canada’s Big Five banks so far.',
 }
 
 export const stats = [
-  { value: 4, suffix: '+', label: 'years in data' },
+  { value: 10, suffix: '+', label: 'legacy workflows modernized' },
+  { value: 437, suffix: '', label: 'functions in one Python library' },
+  { value: 4, suffix: '+', label: 'years in data & automation' },
   { value: 2, suffix: '', label: 'Big Five banks' },
-  { value: 4, suffix: '', label: 'companies, 2 countries' },
-  { value: 3.42, suffix: '', label: 'GPA · Dean’s Honour List', decimals: 2 },
 ]
 
 export const experience = [
   {
     company: 'CIBC',
-    role: 'Senior Developer',
-    period: 'Jun 2026 — Present',
-    place: 'Toronto, Canada',
+    role: 'Senior Specialty Developer',
+    period: 'Jul 2026 — Present',
+    place: 'Toronto · Hybrid',
     current: true,
-    summary: 'Leading the migration of enterprise reporting and scheduled analytics jobs from R to production Python.',
+    summary: 'Modernizing legacy security automation across CIBC’s Identity & Access Review operations.',
     points: [
-      'Refactor legacy R scripts into tested, modular Python apps — mapping every dependency to its Python equivalent.',
-      'Design, test and deploy automated reporting on Python, Pandas, NumPy, SQL and Databricks.',
-      'Build reusable Python modules and automate scheduled jobs on enterprise schedulers.',
-      'Run code reviews, testing and production deployments with cross-functional teams.',
+      'Spearheaded the modernization of 10+ legacy security-automation workflows, migrating R and VBScript to Python and Microsoft Power Automate with zero business-logic deviation.',
+      'Architected Power Automate solutions under strict enterprise DLP constraints — a standard-connector-only pattern that replaced premium Graph API dependencies and unblocked production without compliance exceptions.',
+      'Delivered a 3,200-line R → 1,080-line TypeScript conversion and a 437-function Python utility library, with byte-identical output parity validated by up to 43 automated tests per module.',
+      'Established a repeatable migration framework: 10-phase flow architecture, self-contained deployment packaging, handover docs and cross-file QA reviews.',
+      'Technical bridge between development and operations — from source analysis and POCs through stakeholder walkthroughs to production approval.',
     ],
-    tags: ['Python', 'R', 'Databricks', 'SQL', 'ETL'],
+    tags: ['Python', 'R', 'Power Automate', 'Office Scripts', 'TypeScript', 'VBScript', 'IAM'],
   },
   {
     company: 'BMO Financial Group',
     role: 'Data Analyst',
-    period: 'Apr 2025 — Jun 2026',
-    place: 'Toronto, Canada',
+    period: 'Apr 2025 — Jul 2026',
+    place: 'Toronto · Hybrid',
     award: 'Performance Excellence Award',
-    summary: 'Built the models, pipelines and dashboards behind enterprise reporting and executive KPIs.',
+    summary: 'Built the models, pipelines and dashboards behind enterprise reporting and KPIs.',
     points: [
-      'Designed star & snowflake dimensional models for enterprise reporting.',
-      'Shipped Power BI + DAX dashboards for real-time executive KPI tracking.',
-      'Built ETL/ELT pipelines in Azure Data Factory across cloud and on-prem systems.',
-      'Owned data-quality, governance and validation frameworks; CI/CD with Git and containers.',
+      'Designed star & snowflake dimensional models to optimize enterprise reporting and analytics.',
+      'Developed and maintained 10+ Power BI dashboards with DAX, enabling real-time KPI tracking across business units.',
+      'Built and optimized ETL/ELT pipelines in Azure Data Factory and SQL, integrating 5+ cloud and on-prem sources.',
+      'Led data-quality and governance initiatives with validation frameworks; completed cross-database and cloud migrations.',
     ],
-    tags: ['Power BI', 'DAX', 'Azure Data Factory', 'Data Modeling', 'CI/CD'],
+    tags: ['Power BI', 'DAX', 'Azure Data Factory', 'SQL', 'Data Modeling'],
   },
   {
-    company: 'ICE Robotics',
+    company: 'ICE Robotics Canada',
     role: 'Data Analyst & Staffing Coordinator',
     period: 'Sep 2024 — Apr 2025',
-    place: 'Canada',
+    place: 'Etobicoke · On-site',
     summary: 'Made workforce performance measurable with dashboards and predictive insights.',
     points: [
-      'Power BI and Tableau dashboards for workforce and operational KPIs.',
-      'Integrated data from SQL, APIs and cloud systems to improve accessibility.',
-      'Applied statistical analysis to support workforce planning.',
+      'Interactive Power BI and Tableau dashboards for workforce data and operational KPIs.',
+      'SQL and API integrations feeding centralized reporting systems.',
+      'Statistical analysis and predictive insights for workforce planning.',
     ],
-    tags: ['Tableau', 'Power BI', 'SQL', 'APIs', 'Statistics'],
+    tags: ['Power BI', 'Tableau', 'SQL', 'APIs', 'Statistics'],
   },
   {
     company: 'BISAG-N',
     role: 'Junior Data Analyst',
     period: 'Jan 2022 — Mar 2023',
-    place: 'India',
+    place: 'Gandhinagar, India · On-site',
     award: 'Employee of the Year 2022',
-    summary: 'Built pipelines and dashboards for government-scale data initiatives.',
+    summary: 'Built pipelines and dashboards for government-scale datasets.',
     points: [
-      'SQL and Python ETL workflows for large-scale datasets.',
-      'Structured data models for analytics and BI use cases.',
-      'Dashboards that turned national datasets into actionable insight.',
+      'ETL pipelines and data workflows in SQL and Python for large-scale government datasets.',
+      'Dimensional data models for public-sector analytics and reporting.',
+      'Developed 15+ dashboards and reports with Python visualization libraries and BI tools.',
     ],
-    tags: ['Python', 'SQL', 'ETL', 'BI'],
+    tags: ['Python', 'SQL', 'ETL', 'Data Modeling', 'BI'],
   },
 ]
 
 export const skillGroups = [
-  { name: 'Languages', items: ['Python', 'R', 'SQL', 'Databricks SQL', 'DAX'] },
-  { name: 'Data Engineering', items: ['Databricks', 'Azure Data Factory', 'SSIS', 'ETL / ELT', 'API Integration', 'Data Migration'] },
-  { name: 'Analytics & BI', items: ['Power BI', 'Tableau', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'dplyr / tidyr'] },
-  { name: 'Modeling', items: ['Star Schema', 'Snowflake Schema', 'Data Warehousing', 'Data Lineage', 'Data Governance'] },
-  { name: 'AI / ML', items: ['scikit-learn', 'TensorFlow', 'Keras', 'NLP', 'Computer Vision', 'OpenCV', 'MLflow'] },
-  { name: 'Cloud & DevOps', items: ['Azure', 'Docker', 'Kubernetes', 'Terraform', 'ARM Templates', 'Git', 'CI/CD'] },
+  { name: 'Languages', items: ['Python', 'SQL', 'R', 'TypeScript', 'VBScript', 'DAX'] },
+  { name: 'Automation', items: ['Power Automate', 'Office Scripts', 'Test Automation', 'Legacy Migration', 'Process Automation'] },
+  { name: 'Security', items: ['Identity & Access Review', 'IAM', 'Enterprise DLP', 'Compliance'] },
+  { name: 'Data Engineering', items: ['Azure Data Factory', 'Databricks', 'SSIS', 'ETL / ELT', 'API Integration', 'Data Migration'] },
+  { name: 'Analytics & BI', items: ['Power BI', 'Tableau', 'Pandas', 'NumPy', 'Matplotlib'] },
+  { name: 'Modeling', items: ['Star Schema', 'Snowflake Schema', 'Data Warehousing', 'Data Governance', 'Data Quality'] },
+  { name: 'AI / ML', items: ['scikit-learn', 'TensorFlow', 'Keras', 'NLP', 'Computer Vision', 'MLflow'] },
+  { name: 'Cloud & DevOps', items: ['Azure', 'Git', 'CI/CD', 'Docker'] },
 ]
 
 export const projects = [
@@ -160,8 +164,8 @@ export const projects = [
 ]
 
 export const education = [
-  { school: 'Lambton College, Canada', degree: 'Post-Graduate Certificate, AI & Machine Learning', period: '2023 — 2024', note: 'GPA 3.42 · Dean’s Honour List' },
-  { school: 'Birla Vishvakarma Mahavidyalaya, India', degree: 'B.E. Electronics & Communication', period: '2018 — 2022' },
+  { school: 'Lambton College, Canada', degree: 'Graduate Certificate, AI & Machine Learning', period: 'May 2023 — Jan 2025', note: 'GPA 3.4 · Dean’s Honour List' },
+  { school: 'Birla Vishvakarma Mahavidyalaya, India', degree: 'B.Tech, Electronics & Communication', period: '2018 — 2022', note: 'CPI 8.2' },
 ]
 
 export const awards = [
