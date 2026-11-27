@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhavya Vadher — Senior Developer · Data & Analytics</title>
+    <meta name="description" content="Bhavya Vadher is a Toronto-based Senior Developer at CIBC, building Databricks pipelines, Azure Data Factory ETL and Power BI dashboards for Canadian banks." />
+    <meta name="theme-color" content="#07090f" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://bhavyavadher.netlify.app/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bhavya Vadher — Senior Developer" />
+    <meta property="og:description" content="Senior Developer @ CIBC · ex-BMO · Python, SQL, Databricks, Azure, Power BI." />
+    <meta property="og:url" content="https://bhavyavadher.netlify.app/" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bhavya Vadher",
+        "jobTitle": "Senior Developer",
+        "worksFor": { "@type": "Organization", "name": "CIBC" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Toronto", "addressRegion": "ON", "addressCountry": "CA" },
+        "url": "https://bhavyavadher.netlify.app/",
+        "sameAs": ["https://github.com/BhavyaVadher", "https://www.linkedin.com/in/bhavyavadher/"],
+        "alumniOf": ["Lambton College", "Birla Vishvakarma Mahavidyalaya"]
+      }
+    </script>
+    <script>
+      try {
+        const t = localStorage.getItem('theme');
+        if (t === 'light') document.documentElement.classList.remove('dark');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <!-- Static form so Netlify Forms can detect the contact form at deploy time -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
