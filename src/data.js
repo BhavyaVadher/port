@@ -9,7 +9,8 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/bhavyavadher/',
   email: 'bhavyavadher01@gmail.com',
   site: 'https://bhavyavadher.github.io/',
-  avatar: 'https://github.com/BhavyaVadher.png',
+  avatar: '/avatar-400.jpg',
+  photo: '/avatar.jpg',
   tagline:
     'I turn legacy code and messy data into clean pipelines, reliable reports and dashboards executives actually use — for two of Canada’s Big Five banks.',
 }

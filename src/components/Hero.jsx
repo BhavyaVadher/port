@@ -116,6 +116,20 @@ export default function Hero() {
       <NodeField />
 
       <div className="relative mx-auto w-full max-w-6xl px-5 sm:px-8">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9, rotate: 4 }}
+          animate={{ opacity: 1, scale: 1, rotate: 3 }}
+          transition={{ duration: 1, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
+          className="pointer-events-none absolute right-8 top-6 hidden xl:block"
+        >
+          <div className="relative">
+            <div className="absolute -inset-4 rounded-[2.25rem] bg-gradient-to-br from-cyan-400/40 via-violet-500/30 to-pink-400/30 blur-2xl" />
+            <img src={profile.photo} alt="Bhavya Vadher" width="260" height="260" className="relative h-[260px] w-[260px] rounded-[2rem] border border-white/10 object-cover shadow-2xl" />
+            <div className="absolute -bottom-4 -left-6 flex items-center gap-2 rounded-xl border border-line bg-card px-3 py-2 text-xs backdrop-blur-xl">
+              <span className="pulse-dot h-2 w-2 rounded-full bg-emerald-400" /> Toronto, Canada
+            </div>
+          </div>
+        </motion.div>
         <motion.a {...fade(0)} href="#experience" className="mb-8 inline-flex items-center gap-2.5 rounded-full border border-line bg-card px-3.5 py-1.5 text-xs backdrop-blur-md">
           <span className="pulse-dot h-2 w-2 rounded-full bg-emerald-400" />
           <span className="text-muted">Currently</span>
