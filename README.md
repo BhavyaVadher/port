@@ -1,8 +1,8 @@
-# bhavyavadher.netlify.app
+# bhavyavadher.github.io
 
 Personal portfolio of **Bhavya Vadher**, Senior Developer (data & analytics) at CIBC in Toronto.
 
-**Stack:** React 19, Vite, Tailwind CSS v4 and Motion, deployed on Netlify with Netlify Forms handling the contact form.
+**Stack:** React 19, Vite, Tailwind CSS v4 and Motion, hosted on GitHub Pages. The built site lives in the [BhavyaVadher.github.io](https://github.com/BhavyaVadher/BhavyaVadher.github.io) repo.
 
 **Features**
 - Animated hero with a canvas graph that reacts to the cursor

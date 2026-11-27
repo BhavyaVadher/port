@@ -7,6 +7,8 @@ export const profile = {
   github: 'https://github.com/BhavyaVadher',
   githubUser: 'BhavyaVadher',
   linkedin: 'https://www.linkedin.com/in/bhavyavadher/',
+  email: 'bhavyavadher01@gmail.com',
+  site: 'https://bhavyavadher.github.io/',
   avatar: 'https://github.com/BhavyaVadher.png',
   tagline:
     'I turn legacy code and messy data into clean pipelines, reliable reports and dashboards executives actually use — for two of Canada’s Big Five banks.',
